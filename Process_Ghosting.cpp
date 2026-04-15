@@ -281,7 +281,7 @@ int main()
 
     // Tao file handle voi flag CLOSE
     HANDLE hFile = CreateFileA(
-        "G:\\VNPT Fresher\\Malware learn\\Doppelgang\\notepad.exe",
+        "notepad.exe",
         DELETE | SYNCHRONIZE | FILE_GENERIC_READ | FILE_GENERIC_WRITE,
         FILE_SHARE_READ | FILE_SHARE_WRITE,
         NULL,
@@ -310,7 +310,7 @@ int main()
     DWORD readSize, writeSize;
 
     HANDLE hMal = CreateFileA(
-        "G:\\VNPT Fresher\\Malware learn\\Doppelgang\\PEtoigian.exe",
+        "PEtoigian.exe",
         GENERIC_READ, 
         0, 
         NULL, 
